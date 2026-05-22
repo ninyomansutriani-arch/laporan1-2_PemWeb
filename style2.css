@@ -1,0 +1,81 @@
+/* Ni Nyoman Sutriani_202432037 */
+/*BODY*/
+body { 
+    background: #e9e9e9;
+    font-family: Verdana, sans-serif; 
+}
+
+
+/*HEADER*/
+.header{
+  background: #2f4358;
+  padding: 28px 0 10px;
+  text-align: center;
+}
+
+.header h1{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+
+/*NAVBAR*/
+.navbar{
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  padding: 8px 18px;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.navbar a.active{
+  background: #3498db;
+}
+
+.navbar a:hover{
+  background: #3498db;
+}
+
+/*CONTENT*/
+.content{
+  width: 62%;
+  margin: 70px auto;
+}
+
+.content h2{
+  font-size: 20px;
+  letter-spacing: normal;
+  color: #111;
+}
+
+/*TABLE*/
+table{
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+thead{
+  background: #3498db;
+  color: white;
+}
+
+th, td{
+  padding: 14px 16px;
+  text-align: left;
+  border: 1px solid #ddd;
+  font-size: 15px;
+}
+
+tbody tr:nth-child(even){
+  background: #f2f2f2;
+}

@@ -1,0 +1,14 @@
+/*Ni Nyoman Sutriani_202432037*/
+/*Body*/
+body { 
+    background: linear-gradient(
+        135deg, 
+        black 0%, 
+        #2c3e50 100%); 
+}
+.card {  
+
+}
+.nav-link:hover { 
+    color: #f1c40f !important;
+}

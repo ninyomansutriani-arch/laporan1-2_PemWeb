@@ -1,0 +1,61 @@
+/*Ni Nyoman Sutriani_202432037*/
+/*body*/
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background: #f4f7f6; margin: 0; 
+}
+
+/*Header*/
+header { 
+    background: #5a9baf; 
+    color: white; 
+    padding: 2rem; 
+    text-align: center; 
+}
+
+/*Navbar*/
+nav a {
+    display: inline-block;
+    padding: 5px 15px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,0.5);
+    margin: 0 3px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+nav a.active { 
+    background: white; 
+    color: #5a9baf; 
+    font-weight: normal;
+}
+
+/*Main*/
+main { 
+    padding: 2rem; 
+    max-width: 800px; 
+    margin: auto; 
+}
+
+/*Table*/
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    border: 1px solid #5a9baf;
+}
+
+th { 
+    background-color: #5a9baf; 
+    color: white; 
+}
+
+th, td {
+   border: 1px solid #ddd; 
+   padding: 12px 15px;
+   font-size: 11px;
+}
+
+tr:nth-child(even) { 
+    background-color: #f2f2f2; 
+}

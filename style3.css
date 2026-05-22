@@ -1,0 +1,91 @@
+/* Ni Nyoman Sutriani_202432037 */
+/*Body*/
+body { 
+    background-color: #f0f2f5; 
+    font-family: 'Verdana'; }
+
+/*Header*/
+header {
+    background-color: #476EAE; 
+    color: white; 
+    text-align: center; 
+    padding: 20px 0 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem; 
+    font-weight: bold;
+}
+
+/*Nav Bar*/
+nav {
+    margin-top: 15px; 
+}
+
+nav a {
+    color: white; 
+    text-decoration: none; 
+    margin: 15px; 
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+nav a.active { 
+    color: white; 
+    font-weight: bold; 
+    text-decoration: underline;
+}
+
+/*Main*/
+main { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 40px 20px; /
+}
+
+/*Form*/
+.reg-form {
+    background: white; 
+    padding: 25px; 
+    border-radius: 10px; 
+    width: 100%; 
+    max-width: 600px; 
+    border-top: 5px solid #476EAE; 
+}
+
+
+fieldset { 
+    border: none; 
+}
+
+legend { 
+    font-size: 1.5em; 
+    color: #476EAE; 
+    margin-bottom: 20px; 
+}
+
+.form-group { 
+    margin-bottom: 15px; 
+}
+
+input[type="text"], 
+select { 
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+/*Button*/
+button { 
+    background: #476EAE; 
+    color: white; 
+    border: none; 
+    padding: 12px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    width: 100%; 
+}
